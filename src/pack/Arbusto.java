@@ -1,5 +1,5 @@
 package pack;
 
-public class Arbusto implements Actor{
+public class Arbusto extends Vegetal implements Actor{
 
 }

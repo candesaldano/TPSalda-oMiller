@@ -1,12 +1,10 @@
 package pack;
 
 public class Main {
-
 	public static void main(String[] args) {
-			System.out.println("Hola mundo");
-			Profesor profesorA = new Profesor("Programacion","JTP","Licenciatura","UNLP");
-			System.out.println(profesorA.getCargo());
-
-		}
-
+			Nota parcial1 = new Nota(100, "Candela Saldanio", 38000123);
+			Estudiante candela = new Estudiante();
+			candela.setNotas(parcial1);
 	}
+
+}
