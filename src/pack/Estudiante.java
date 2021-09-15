@@ -4,16 +4,16 @@ import java.util.ArrayList;
 public class Estudiante extends Persona{
 	private ArrayList<Nota> notas = new ArrayList<>();
 	//agregar metodo para buscar nota, nombre, etc
-	private String materias;
+	private String materia;
 	private String carrera;
 	private String universidad;
 
-	public String getMaterias() {
-		return materias;
+	public String getMateria() {
+		return materia;
 	}
 
-	public void setMaterias(String materias) {
-		this.materias = materias;
+	public void setMateria(String materia) {
+		this.materia = materia;
 	}
 
 	public Nota getNotas(int index) {
@@ -28,11 +28,11 @@ public class Estudiante extends Persona{
 		this.notas.add(n);
 	}
 
-	public String getCarreras() {
+	public String getCarrera() {
 		return carrera;
 	}
 
-	public void setCarreras(String carrera) {
+	public void setCarrera(String carrera) {
 		this.carrera = carrera;
 	}
 

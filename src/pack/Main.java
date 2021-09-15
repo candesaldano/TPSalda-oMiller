@@ -7,5 +7,4 @@ public class Main {
 			candela.setNotas(parcial1);
 			System.out.println(candela.getSizeNotas());
 	}
-
 }

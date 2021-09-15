@@ -1,16 +1,16 @@
 package pack;
 
 public class Profesor {
-	private String materias;
+	private String materia;
 	private String cargo;
-	private String carreras;
+	private String carrera;
 	private String universidad;
 	
-	public String getMaterias() {
-		return materias;
+	public String getMateria() {
+		return materia;
 	}
-	public void setMaterias(String materias) {
-		this.materias = materias;
+	public void setMateria(String materia) {
+		this.materia = materia;
 	}
 	public String getCargo() {
 		return cargo;
@@ -18,11 +18,11 @@ public class Profesor {
 	public void setCargo(String cargo) {
 		this.cargo = cargo;
 	}
-	public String getCarreras() {
-		return carreras;
+	public String getCarrera() {
+		return carrera;
 	}
-	public void setCarreras(String carreras) {
-		this.carreras = carreras;
+	public void setCarrera(String carrera) {
+		this.carrera = carrera;
 	}
 	public String getUniversidad() {
 		return universidad;
@@ -30,17 +30,11 @@ public class Profesor {
 	public void setUniversidad(String universidad) {
 		this.universidad = universidad;
 	}
-	public Profesor(String materias, String cargo, String carreras, String universidad) {
+	public Profesor(String materia, String cargo, String carrera, String universidad) {
 		super();
-		this.materias = materias;
+		this.materia = materia;
 		this.cargo = cargo;
-		this.carreras = carreras;
+		this.carrera = carrera;
 		this.universidad = universidad;
 	}
-	
-	public Profesor() {
-		
-	}
-
-
 }

@@ -1,6 +1,6 @@
 package pack;
 
-public class Arbol extends Vegetal implements Actor{
+public class Arbol extends Vegetal implements IActor{
     private boolean frutal;
 
 	public boolean isFrutal() {
@@ -12,7 +12,6 @@ public class Arbol extends Vegetal implements Actor{
 	}
 
 	public Arbol() {
-//		super(id, vida, altura, espinas, nativo, especie, habitat);
 		super();
 	}
 }

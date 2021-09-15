@@ -1,7 +1,7 @@
 package pack;
 
-public abstract class Persona implements Actor{
+public abstract class Persona implements IActor{
 	String nombre;
+	String nacimiento; //mm/dd/aaaa
 	int documento;
-	int nacimiento;//dd/mm/aaaa
 }
