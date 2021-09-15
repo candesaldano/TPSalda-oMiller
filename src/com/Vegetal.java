@@ -1,4 +1,4 @@
-package pack;
+package com;
 
 public class Vegetal {
     private int id;
@@ -44,4 +44,15 @@ public class Vegetal {
 	public void setHabitat(String habitat) {
 		this.habitat = habitat;
 	}
+
+	public Vegetal(){}
+
+	public Vegetal(int id, int vida, boolean espinas, boolean nativo, String especie, String habitat) {
+		this.id = id;
+		this.vida = vida;
+		this.espinas = espinas;
+		this.nativo = nativo;
+		this.especie = especie;
+		this.habitat = habitat;
+	};	
 }

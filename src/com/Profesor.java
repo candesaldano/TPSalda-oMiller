@@ -1,16 +1,16 @@
-package pack;
+package com;
 
-public class Profesor {
-	private String materia;
+public class Profesor extends Persona{
+	private String catedra;
 	private String cargo;
 	private String carrera;
 	private String universidad;
 	
-	public String getMateria() {
-		return materia;
+	public String getCatedra() {
+		return catedra;
 	}
-	public void setMateria(String materia) {
-		this.materia = materia;
+	public void setCatedra(String catedra) {
+		this.catedra = catedra;
 	}
 	public String getCargo() {
 		return cargo;
@@ -30,9 +30,12 @@ public class Profesor {
 	public void setUniversidad(String universidad) {
 		this.universidad = universidad;
 	}
-	public Profesor(String materia, String cargo, String carrera, String universidad) {
-		super();
-		this.materia = materia;
+
+	public Profesor(){};
+
+	public Profesor(String nombre, String nacimiento, int documento, String catedra, String cargo, String carrera, String universidad) {
+		super(nombre, nacimiento, documento);
+		this.catedra = catedra;
 		this.cargo = cargo;
 		this.carrera = carrera;
 		this.universidad = universidad;

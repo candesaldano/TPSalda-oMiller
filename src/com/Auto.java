@@ -1,6 +1,7 @@
-package pack;
+package com;
 
 public class Auto extends Vehiculo{
+    private boolean automatico;
     private String tecnologia; //ABS, Airbag...
     private String motor;
     private String patente;
@@ -23,11 +24,19 @@ public class Auto extends Vehiculo{
     public void setPatente(String patente) {
         this.patente = patente;
     }
-    public boolean isCambios_autos() {
-        return cambios_autos;
+    public boolean isAutomatico() {
+        return automatico;
     }
-    public void setCambios_autos(boolean cambios_autos) {
-        this.cambios_autos = cambios_autos;
+    public void setAutomatico(boolean automatico) {
+        this.automatico = automatico;
     }
-    private boolean cambios_autos;
+    public Auto(){};
+
+    public Auto(String modelo, String color, boolean automatico, String tecnologia, String motor, String patente) {
+        super(modelo, color);
+        this.automatico = automatico;
+        this.tecnologia = tecnologia;
+        this.motor = motor;
+        this.patente = patente;
+    }
 }

@@ -1,4 +1,4 @@
-package pack;
+package com;
 
 public class Vehiculo implements IObjetoInerte, IActor {
     private String modelo;
@@ -16,4 +16,12 @@ public class Vehiculo implements IObjetoInerte, IActor {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public Vehiculo(){}
+    
+    public Vehiculo(String modelo, String color) {
+        this.modelo = modelo;
+        this.color = color;
+    };
+    
 }

@@ -1,4 +1,4 @@
-package pack;
+package com;
 
 public class Bicicleta extends Vehiculo{
     private String tipo; //BMX, FreeStyle, Downhill, Playera...
@@ -23,4 +23,15 @@ public class Bicicleta extends Vehiculo{
     public void setCambios(int cambios) {
         this.cambios = cambios;
     }
+
+    public Bicicleta(){}
+
+    public Bicicleta(String modelo, String color, String tipo, int rodado, int cambios) {
+        super(modelo, color);
+        this.tipo = tipo;
+        this.rodado = rodado;
+        this.cambios = cambios;
+    };
+
+    
 }

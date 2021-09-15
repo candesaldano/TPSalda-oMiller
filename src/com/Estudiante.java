@@ -1,19 +1,19 @@
-package pack;
+package com;
 import java.util.ArrayList;
 
 public class Estudiante extends Persona{
 	private ArrayList<Nota> notas = new ArrayList<>();
 	//agregar metodo para buscar nota, nombre, etc
-	private String materia;
+	private String catedra;
 	private String carrera;
 	private String universidad;
 
-	public String getMateria() {
-		return materia;
+	public String getCatedra() {
+		return catedra;
 	}
 
-	public void setMateria(String materia) {
-		this.materia = materia;
+	public void setCatedra(String catedra) {
+		this.catedra = catedra;
 	}
 
 	public Nota getNotas(int index) {
@@ -40,8 +40,17 @@ public class Estudiante extends Persona{
 		return universidad;
 	}
 
+	
 	public void setUniversidad(String universidad) {
 		this.universidad = universidad;
 	}
+	
+	public Estudiante(){};
 
+	public Estudiante(String nombre, String nacimiento, int documento, String catedra, String carrera, String universidad) {
+		super(nombre, nacimiento, documento);
+		this.catedra = catedra;
+		this.carrera = carrera;
+		this.universidad = universidad;
+	}
 }

@@ -1,4 +1,4 @@
-package pack;
+package com;
 
 public class Nota {
     private float puntuacion;
