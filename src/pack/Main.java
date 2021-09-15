@@ -5,6 +5,7 @@ public class Main {
 			Nota parcial1 = new Nota(100, "Candela Saldanio", 38000123);
 			Estudiante candela = new Estudiante();
 			candela.setNotas(parcial1);
+			System.out.println(candela.getSizeNotas());
 	}
 
 }

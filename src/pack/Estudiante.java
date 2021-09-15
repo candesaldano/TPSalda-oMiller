@@ -29,11 +29,11 @@ public class Estudiante extends Persona{
 	}
 
 	public String getCarreras() {
-		return carreras;
+		return carrera;
 	}
 
-	public void setCarreras(String carreras) {
-		this.carreras = carreras;
+	public void setCarreras(String carrera) {
+		this.carrera = carrera;
 	}
 
 	public String getUniversidad() {

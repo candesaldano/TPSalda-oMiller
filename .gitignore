@@ -49,5 +49,5 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .vscode/
-.code-workspace
+*.code-workspace
 .DS_Store

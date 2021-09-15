@@ -3,7 +3,6 @@ package pack;
 public class Vegetal {
     private int id;
     private int vida; //en meses
-    private float altura; //en centimetros
     private boolean espinas;
     private boolean nativo;
     private String especie;
@@ -14,12 +13,6 @@ public class Vegetal {
 	}
 	public void setId(int id) {
 		this.id = id;
-	}
-	public int getAltura(int altura) {
-		return altura;
-	}
-	public void setAltura(int altura) {
-		this.altura = altura;
 	}
 	public int getVida() {
 		return vida;
