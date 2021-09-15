@@ -8,5 +8,6 @@ public class Main {
 			candela.setNotas(parcial1);
 			System.out.println(candela.getCarrera());
 			System.out.println(austry.getNombre());
+			System.out.println(candela.buscarNombre("Candela Saldanio"));
 	}
 }
